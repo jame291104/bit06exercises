@@ -4,20 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
     <link rel="stylesheet" href="./css/main.css">
-
+    
 </head>
 <body>
     <div class="form">
         <h1 class="login">Inicia Sesión</h1>
         <p>Username :</p>
-        <input type="text" name="" placeholder="Name Here" id="Nombre">
+        <input type="text" name="" placeholder="Nombre" id="usuario">
         <p>Password</p>
-        <input type="password" name="" placeholder="Password Here" id="pass">
-        <input type="checkbox" onclick="myFunction()">
-        <input type="submit" name="" value="Enter">
+        <input type="password" name="" placeholder="Contraseña" id="contrasena">
+        <input type="checkbox" onclick="login()">
+        <input type="submit" onclick="check()" value="Continuar">
     </div>
 </body>
-<script> src="main.js"</script>
+<script src='./js/main.js'></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </html>
