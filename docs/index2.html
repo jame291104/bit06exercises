@@ -4,9 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ejercicio</title>
+    <link rel="stylesheet" href="./css2/main2.css">
 </head>
 <body>
-    <h1>Hola Mundo</h1>
+    <h1 class="hola">Hola Mundo</h1> 
+    <div class="container">
+        <div class="card-1">
+            <h2>Ejercicio 1</h2>
+            <input type="text" placeholder="Ingresa tu Nombre" id="nombre">
+            <input type="submit" onclick="saludar()" value="Continuar">
+        </div>
+        <div class="card-2">
+            <h2>Ejercicio 2</h2>
+            <input type="number" placeholder="Ingresa tu edad" id="edad">
+            <input type="submit" onclick="edadDelUsuario()" value="Continuar">
+        </div>
+        <div class="card-3">
+            <h2>Ejercicio 3</h2>
+            <input type="text" placeholder="Ingresa un numero" id="numero">
+            <input type="submit" onclick="elDoble()" value="Mostrar el doble">
+        </div>
+    </div>
 </body>
+<script src="Js2/main2.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </html>

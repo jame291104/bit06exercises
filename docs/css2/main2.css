@@ -1,0 +1,134 @@
+body{
+    background-color: #232323;
+     margin: 0;
+     padding: 0;
+     font-family: 'Arimo', sans-serif;
+    
+}
+.container{
+    width: 100%;
+    max-width: 1800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto
+}
+
+/*Carta 1*/
+.hola{
+    color: #7a46fb;
+    text-align: center;
+}
+.container .card-1{
+    width: 330px;
+    height: 330px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: #7a46fb;
+}
+.container .card-1:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.439);
+}
+.container .card-1 input{
+    width: 80%;
+    height: 35px;
+    padding-top: 5px;
+    margin-bottom: 30px;
+    background: transparent;
+    border-bottom: 1px solid #f5f5f5;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #f5f5f5;
+    outline: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.container .card-1 ::placeholder{
+    color: #f5f5f5;
+}
+.container .card-1 h2{
+    color: #f5f5f5;
+}
+
+/*Carta 2*/
+.container .card-2{
+    width: 330px;
+    height: 330px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: #7a46fb;
+}
+.container .card-2:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.439);
+}
+.container .card-2 input{
+    width: 80%;
+    height: 35px;
+    padding-top: 5px;
+    margin-bottom: 30px;
+    background: transparent;
+    border-bottom: 1px solid #f5f5f5;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #f5f5f5;
+    outline: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.container .card-2 ::placeholder{
+    color: #f5f5f5;
+}
+.container .card-2 h2{
+    color: #f5f5f5;
+}
+
+
+/*Carta 3*/
+.container .card-3{
+    width: 330px;
+    height: 330px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: #7a46fb;
+}
+.container .card-3:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.439);
+}
+.container .card-3 input{
+    width: 80%;
+    height: 35px;
+    padding-top: 5px;
+    margin-bottom: 30px;
+    background: transparent;
+    border-bottom: 1px solid #f5f5f5;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #f5f5f5;
+    outline: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.container .card-3 ::placeholder{
+    color: #f5f5f5;
+}
+.container .card-3 h2{
+    color: #f5f5f5;
+}
