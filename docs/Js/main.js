@@ -5,7 +5,7 @@ function login(){
     user = document.getElementById("usuario").value;
     password = document.getElementById("contrasena").value;
 
-    if(user == "loginname" && password == "291104"){
+    if(user == "bit" && password == "2023"){
         Swal.fire(
             '!Excelente!',
             'Ahora presiona CONTINUAR',
@@ -27,7 +27,7 @@ function check(){
     user = document.getElementById("usuario").value;
     password = document.getElementById("contrasena").value;
 
-    if(user == "loginname" && password == "291104"){
+    if(user == "bit" && password == "2023"){
         window.location = "index2.html";
     } else{
         Swal.fire(
