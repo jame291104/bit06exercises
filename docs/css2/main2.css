@@ -132,3 +132,232 @@ body{
 .container .card-3 h2{
     color: #f5f5f5;
 }
+
+/*Carta 4*/
+.container .card-4{
+    width: 330px;
+    height: 330px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: #7a46fb;
+}
+.container .card-4:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.439);
+}
+.container .card-4 input{
+    width: 80%;
+    height: 35px;
+    padding-top: 5px;
+    margin-bottom: 30px;
+    background: transparent;
+    border-bottom: 1px solid #f5f5f5;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #f5f5f5;
+    outline: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.container .card-4 ::placeholder{
+    color: #f5f5f5;
+}
+.container .card-4 h2{
+    color: #f5f5f5;
+}
+
+/*Carta 5*/
+.container .card-5{
+    width: 330px;
+    height: 330px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: #7a46fb;
+}
+.container .card-5:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.439);
+}
+.container .card-5 input{
+    width: 80%;
+    height: 35px;
+    padding-top: 5px;
+    margin-bottom: 30px;
+    background: transparent;
+    border-bottom: 1px solid #f5f5f5;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #f5f5f5;
+    outline: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.container .card-5 ::placeholder{
+    color: #f5f5f5;
+}
+.container .card-5 h2{
+    color: #f5f5f5;
+}
+
+/*Carta 6*/
+.container .card-6{
+    width: 330px;
+    height: 330px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: #7a46fb;
+}
+.container .card-6:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.439);
+}
+.container .card-6 input{
+    width: 80%;
+    height: 35px;
+    padding-top: 5px;
+    margin-bottom: 30px;
+    background: transparent;
+    border-bottom: 1px solid #f5f5f5;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #f5f5f5;
+    outline: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.container .card-6 ::placeholder{
+    color: #f5f5f5;
+}
+.container .card-6 h2{
+    color: #f5f5f5;
+}
+
+/*Carta 7*/
+.container .card-7{
+    width: 330px;
+    height: 330px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: #7a46fb;
+}
+.container .card-7:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.439);
+}
+.container .card-7 input{
+    width: 80%;
+    height: 35px;
+    padding-top: 5px;
+    margin-bottom: 30px;
+    background: transparent;
+    border-bottom: 1px solid #f5f5f5;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #f5f5f5;
+    outline: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.container .card-7 ::placeholder{
+    color: #f5f5f5;
+}
+.container .card-7:hover h2{
+    color: #f5f5f5;
+}
+
+/*Carta 8*/
+.container .card-8{
+    width: 330px;
+    height: 330px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: #7a46fb;
+}
+.container .card-8:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.439);
+}
+.container .card-8 input{
+    width: 80%;
+    height: 35px;
+    padding-top: 5px;
+    margin-bottom: 30px;
+    background: transparent;
+    border-bottom: 1px solid #f5f5f5;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #f5f5f5;
+    outline: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.container .card-8 ::placeholder{
+    color: #f5f5f5;
+}
+.container .card-8:hover h2{
+    color: #f5f5f5;
+}
+
+/*Carta 9*/
+.container .card-9{
+    width: 330px;
+    height: 330px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: #7a46fb;
+}
+.container .card-9:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.439);
+}
+.container .card-9 input{
+    width: 80%;
+    height: 35px;
+    padding-top: 5px;
+    margin-bottom: 30px;
+    background: transparent;
+    border-bottom: 1px solid #f5f5f5;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #f5f5f5;
+    outline: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.container .card-9 ::placeholder{
+    color: #f5f5f5;
+}
+.container .card-9:hover h2{
+    color: #f5f5f5;
+}
+
