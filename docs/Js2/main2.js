@@ -256,3 +256,42 @@ function saludar() {
       });
     }
   }
+
+  function math(){
+    let n1 = parseInt(document.getElementById("n1").value);
+    let n2 = parseInt(document.getElementById("n2").value);
+    let maths = document.getElementById("maths").value;
+
+    switch (maths) {
+      case 'sumar':
+        Swal.fire(
+          ` ${n1} + ${n2} = ${n1 + n2}` , '',
+          'success' 
+        );
+        break;
+      case 'restar':
+        Swal.fire(
+          ` ${n1} - ${n2} = ${n1 - n2}` , '',
+          'success' 
+        );
+        break;
+      case 'multiplicar':
+        Swal.fire(
+          ` ${n1} x ${n2} = ${n1 * n2}` , '',
+          'success' 
+        );
+        break;
+      case 'dividir':
+        Swal.fire(
+          ` ${n1} / ${n2} = ${n1 / n2}` , '',
+          'success' 
+        );
+        break;
+      default:
+        Swal.fire({
+          icon: 'error',
+          title: `La operación ${maths} no está disponible`,
+        });
+        break;
+    }
+    }
