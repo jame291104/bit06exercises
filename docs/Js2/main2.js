@@ -110,6 +110,149 @@ function saludar() {
   } 
 
   //Ejercicio 10 
- // function ceroPositivoNegativo(){
-   // let numero7 =
- // }
+  function ceroPositivoNegativo(){
+    let numero7 = parseInt(document.getElementById("numero7").value);
+    if (numero7 == 0) {
+      Swal.fire(
+        '' + numero7 , ' es cero',
+        'success' 
+      );
+    } else if (numero7 < 0) {
+      Swal.fire(
+        '' + numero7 , ' es negativo ',
+        'success' 
+      );
+    } else {
+      Swal.fire(
+        '' + numero7 , ' es positivo ',
+        'success' 
+      );
+    }
+  }
+
+  //Ejercicio 11
+
+  function ceroParImpar() {
+    const numero8 = parseInt(document.getElementById("numero8").value);
+    if (numero8 === 0) {
+      Swal.fire(
+        '' + numero8 , ' es cero ',
+        'success' 
+      );
+    } else if (numero8 % 2 === 0) {
+      Swal.fire(
+        '' + numero8 , ' es par ',
+        'success' 
+      );
+    } else {
+      Swal.fire(
+        '' + numero8 , ' es impar ',
+        'success' 
+      );
+    }
+  }
+
+  //Ejercicio 12
+
+  function esPrimo() {
+    const numero9 = parseInt(document.getElementById("numero9").value);
+    if (numero9 < 2) {
+      Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Debes ingresar un numero mayor a 1'
+      });
+    }
+    let contador = 0;
+    for (let i = 1; i <= numero9; i++) {
+      if (numero9 % i === 0) {
+        contador++;
+      }
+    }
+    if (contador === 2) {
+      Swal.fire(
+        '' + numero9 , ' es primo ',
+        'success' 
+      );
+    } else {
+      Swal.fire(
+        '' + numero9 , ' no es primo ',
+        'success' 
+      );
+    }
+  }
+
+  //Ejercicio 13
+  function sumar(){
+    let primerNumero = parseInt(document.getElementById("primer_numero").value);
+    let segundoNumero = parseInt(document.getElementById("segundo_numero").value);
+    let resultadoSuma = primerNumero + segundoNumero;
+    Swal.fire(
+      'El resultado de la suma es ' + resultadoSuma, '',
+      'success' 
+    );
+  }
+
+  //Ejercicio 14
+  function restar(){
+    let firstNumber = parseInt(document.getElementById("first_number").value);
+    let secondNumber = parseInt(document.getElementById("second_number").value);
+    let resultadoResta = firstNumber - secondNumber;
+    Swal.fire(
+      'El resultado de la resta es ' + resultadoResta, '',
+      'success' 
+    );
+  }
+
+   //Ejercicio 15
+   function multiplica(){
+    let multiplicando = parseInt(document.getElementById("multiplicando").value);
+    let multiplicador = parseInt(document.getElementById("multiplicador").value);
+    let multiplicacion = multiplicando * multiplicador;
+    Swal.fire(
+      'El resultado de la multiplicación es ' + multiplicacion, '',
+      'success' 
+    );
+  }
+
+  
+   //Ejercicio 16
+   function dividir(){
+    let dividendo = parseInt(document.getElementById("dividendo").value);
+    let divisor = parseInt(document.getElementById("divisor").value);
+    let divicion = dividendo / divisor;
+    Swal.fire(
+      'El resultado de la divición es ' + divicion, '',
+      'success' 
+    );
+  }
+
+  //Ejercicio 17
+  function dividi2(){
+    let dividendo2 = parseInt(document.getElementById("dividendo2").value);
+    let divisor2 = parseInt(document.getElementById("divisor2").value);
+    let divicion2 = dividendo2 % divisor2;
+    Swal.fire(
+      'El residuo de la divición es ' + divicion2, '',
+      'success' 
+    );
+  }
+
+  //Ejercicio 18
+  function dividir3(){
+    let dividendo3 = parseInt(document.getElementById("dividendo3").value);
+    let divisor3 = parseInt(document.getElementById("divisor3").value);
+    let divicion3 = dividendo3 % divisor3;
+
+    if(divicion3 === 0) {
+      Swal.fire(
+        ' Si son divisibles entre sí ', '',
+        'success' 
+      );
+    }else {
+      Swal.fire({
+        icon: 'error',
+        title: 'No son divisibles entre sí',
+      });
+    }
+  }

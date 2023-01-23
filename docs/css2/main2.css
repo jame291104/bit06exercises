@@ -361,3 +361,347 @@ body{
     color: #f5f5f5;
 }
 
+/*Carta 10*/
+.container .card-10{
+    width: 330px;
+    height: 330px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: #7a46fb;
+}
+.container .card-10:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.439);
+}
+.container .card-10 input{
+    width: 80%;
+    height: 35px;
+    padding-top: 5px;
+    margin-bottom: 30px;
+    background: transparent;
+    border-bottom: 1px solid #f5f5f5;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #f5f5f5;
+    outline: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.container .card-10 ::placeholder{
+    color: #f5f5f5;
+}
+.container .card-10:hover h2{
+    color: #f5f5f5;
+}
+
+/*Carta 11*/
+.container .card-11{
+    width: 330px;
+    height: 330px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: #7a46fb;
+}
+.container .card-11:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.439);
+}
+.container .card-11 input{
+    width: 80%;
+    height: 35px;
+    padding-top: 5px;
+    margin-bottom: 30px;
+    background: transparent;
+    border-bottom: 1px solid #f5f5f5;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #f5f5f5;
+    outline: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.container .card-11 ::placeholder{
+    color: #f5f5f5;
+}
+.container .card-11:hover h2{
+    color: #f5f5f5;
+}
+
+/*Carta 12*/
+.container .card-12{
+    width: 330px;
+    height: 330px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: #7a46fb;
+}
+.container .card-12:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.439);
+}
+.container .card-12 input{
+    width: 80%;
+    height: 35px;
+    padding-top: 5px;
+    margin-bottom: 30px;
+    background: transparent;
+    border-bottom: 1px solid #f5f5f5;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #f5f5f5;
+    outline: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.container .card-12 ::placeholder{
+    color: #f5f5f5;
+}
+.container .card-12:hover h2{
+    color: #f5f5f5;
+}
+
+/*Carta 13*/
+.container .card-13{
+    width: 330px;
+    height: 330px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: #7a46fb;
+}
+.container .card-13:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.439);
+}
+.container .card-13 input{
+    width: 80%;
+    height: 35px;
+    padding-top: 5px;
+    margin-bottom: 30px;
+    background: transparent;
+    border-bottom: 1px solid #f5f5f5;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #f5f5f5;
+    outline: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.container .card-13 ::placeholder{
+    color: #f5f5f5;
+}
+.container .card-13:hover h2{
+    color: #f5f5f5;
+}
+
+/*Carta 14*/
+.container .card-14{
+    width: 330px;
+    height: 330px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: #7a46fb;
+}
+.container .card-14:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.439);
+}
+.container .card-14 input{
+    width: 80%;
+    height: 35px;
+    padding-top: 5px;
+    margin-bottom: 30px;
+    background: transparent;
+    border-bottom: 1px solid #f5f5f5;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #f5f5f5;
+    outline: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.container .card-14 ::placeholder{
+    color: #f5f5f5;
+}
+.container .card-14:hover h2{
+    color: #f5f5f5;
+}
+
+/*Carta 15*/
+.container .card-15{
+    width: 330px;
+    height: 330px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: #7a46fb;
+}
+.container .card-15:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.439);
+}
+.container .card-15 input{
+    width: 80%;
+    height: 35px;
+    padding-top: 5px;
+    margin-bottom: 30px;
+    background: transparent;
+    border-bottom: 1px solid #f5f5f5;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #f5f5f5;
+    outline: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.container .card-15 ::placeholder{
+    color: #f5f5f5;
+}
+.container .card-15:hover h2{
+    color: #f5f5f5;
+} 
+
+
+/*Carta 16*/
+.container .card-16{
+    width: 330px;
+    height: 330px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: #7a46fb;
+}
+.container .card-16:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.439);
+}
+.container .card-16 input{
+    width: 80%;
+    height: 35px;
+    padding-top: 5px;
+    margin-bottom: 30px;
+    background: transparent;
+    border-bottom: 1px solid #f5f5f5;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #f5f5f5;
+    outline: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.container .card-16 ::placeholder{
+    color: #f5f5f5;
+}
+.container .card-16:hover h2{
+    color: #f5f5f5;
+}
+
+/*Carta 17*/
+.container .card-17{
+    width: 330px;
+    height: 330px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: #7a46fb;
+}
+.container .card-17:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.439);
+}
+.container .card-17 input{
+    width: 80%;
+    height: 35px;
+    padding-top: 5px;
+    margin-bottom: 30px;
+    background: transparent;
+    border-bottom: 1px solid #f5f5f5;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #f5f5f5;
+    outline: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.container .card-17 ::placeholder{
+    color: #f5f5f5;
+}
+.container .card-17:hover h2{
+    color: #f5f5f5;
+}
+
+/*Carta 18*/
+.container .card-18{
+    width: 330px;
+    height: 330px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: #7a46fb;
+}
+.container .card-18:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.439);
+}
+.container .card-18 input{
+    width: 80%;
+    height: 35px;
+    padding-top: 5px;
+    margin-bottom: 30px;
+    background: transparent;
+    border-bottom: 1px solid #f5f5f5;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #f5f5f5;
+    outline: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.container .card-18 ::placeholder{
+    color: #f5f5f5;
+}
+.container .card-18:hover h2{
+    color: #f5f5f5;
+}
+
+
