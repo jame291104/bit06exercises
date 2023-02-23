@@ -256,6 +256,8 @@ function saludar() {
       });
     }
   }
+  
+   //Ejercicio 19
 
   function math(){
     let n1 = parseInt(document.getElementById("n1").value);
@@ -295,3 +297,163 @@ function saludar() {
         break;
     }
     }
+    
+     //Ejercicio 20
+
+     const rangoDePares = () => {
+       const endNumber = document.getElementById("end_number").value;
+
+       if (endNumber.trim() === "") {
+        Swal.fire({
+          icon: 'error',
+          title: `Ups, no ingresaste un número`,
+        });
+       } else {
+       let pares = '';
+        for (let i = 1; i <= endNumber; i++) {
+         if (i % 2 === 0) {
+         pares += i + ', ';
+      }
+     }
+     Swal.fire(
+      ` Los numeros pares de 1 a ${endNumber}, son ${pares}` , '',
+      'success' 
+    );
+    }
+  }
+
+  //Ejercicio 21
+
+  const sumaTotal = () => {
+    const sumaNumber = document.getElementById("suma_end_number").value;
+
+    if (sumaNumber.trim() === "") {
+      Swal.fire({
+        icon: 'error',
+        title: `Ups, no ingresaste un número`,
+      });
+    } else {
+      let result = 0;
+       let i = 1;
+       while (i <= sumaNumber) {
+        result += i;
+         i++;
+    }
+    Swal.fire(
+      ` La suma de los numeros de 1 a ${sumaNumber}, es ${result}` , '',
+      'success' 
+    );
+    }
+  }
+
+  //Ejercicio 22
+
+  const sumaTotalDePares = () => {
+    const parNumber = document.getElementById('end_par_number').value;
+  if (!parNumber.trim()) {
+    Swal.fire({
+      icon: 'error',
+      title: `Ups, no ingresaste un número`,
+    });
+  } else {
+    let result  = 0;
+  
+    for (let i = 1; i <= parNumber; i++) {
+      if (i % 2 === 0) {
+        result = result + i;
+      }
+    }
+    Swal.fire(
+      ` La suma de los numeros pares de 1 a ${parNumber}, es ${result}` , '',
+      'success' 
+    );
+  }
+
+  }
+
+  //Ejercicio 23 
+  const sumaTotalDeImpares = () => {
+    const imparNumber = document.getElementById('end_impar_number').value;
+    
+    if (!imparNumber.trim()) {
+      Swal.fire({
+        icon: 'error',
+        title: `Ups, no ingresaste un número`,
+      });
+    } else {
+      let result = 0;
+  
+    for (let i = 1; i <= imparNumber; i++) {
+      if (i % 2 !== 0) {
+        result = result + i;
+      }
+    } 
+    Swal.fire(
+      ` La suma de los números impares de 1 a ${imparNumber}, es ${result}` , '',
+      'success' 
+    );
+    }
+  };
+
+  //Ejercicio 24
+  const multiplosDe3 = () => {
+    const number3 = document.getElementById('end3_number').value;
+      if (!number3.trim()) {
+        Swal.fire({
+          icon: 'error',
+          title: `Ups, no ingresaste un número`,
+        });
+      } else {
+        let result = 0;
+  
+    for (let i = 1; i <= number3; i++) {
+      if (i % 3 === 0) {
+        result = result + i;
+    }
+  }
+  Swal.fire(
+    ` La suma de los números multiplos de tres, de 1 a ${number3}, es ${result}` , '',
+    'success' 
+  );
+ }
+}
+
+  //Ejercicio 25
+  function elevated3(){
+    let numeroAlCubo = document.getElementById("cubo_number").value;
+    let alCubo = numeroAlCubo ** 3;
+    if (!numeroAlCubo.trim()) {
+      Swal.fire({
+        icon: 'error',
+        title: `Ups, no ingresaste un número`,
+      });
+    } else {
+      Swal.fire(
+        'El cubo de ' + numeroAlCubo , 'es ' + alCubo,
+        'success' 
+      );
+    }
+   
+   }
+
+  //Ejercicio 26
+  const desdeNhasta0 = () => {
+    const numberReverse = document.getElementById('number_reverse').value;
+    if (!numberReverse.trim()) {
+      Swal.fire({
+        icon: 'error',
+        title: `Ups, no ingresaste un número`,
+      });
+    } else {
+      for (let i = numberReverse; i > -1; i--) {
+        Swal.fire(
+          `El intervalo de numeros desde ${numberReverse} , hasta 0 es ${i} `,
+          'success' 
+        );
+      }
+    }
+  };
+  //Ejercicio 27
+  //Ejercicio 28
+  //Ejercicio 29
+  //Ejercicio 30
